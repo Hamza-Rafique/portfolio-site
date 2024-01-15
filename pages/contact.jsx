@@ -1,12 +1,12 @@
 import { useState } from "react";
-import BannerLayout from "../components/Common/BannerLayout";
+import { Modal } from "antd";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { SiUpwork } from "react-icons/si";
 import { HiMail, HiUser } from "react-icons/hi";
 import { BsChatTextFill } from "react-icons/bs";
+import BannerLayout from "../components/Common/BannerLayout";
 import Fiverr_Icon from "../components/Fiverr_Icon";
 import Footer from "../components/Footer";
-import { Modal } from "antd";
 
 const Contact = () => {
   const [isOpen, setIsOpen] = useState(false);

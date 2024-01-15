@@ -1,9 +1,8 @@
-import '../styles/globals.css'
+import { QueryClient, QueryClientProvider } from "react-query";
+import "../styles/globals.css";
+import Layout from "./layout";
 
-import Layout from './layout'
-import { QueryClient, QueryClientProvider } from 'react-query'
-
-const queryClient = new QueryClient()
+const queryClient = new QueryClient();
 
 export default function App({ Component, pageProps }) {
   return (
@@ -12,5 +11,5 @@ export default function App({ Component, pageProps }) {
         <Component {...pageProps} />
       </Layout>
     </QueryClientProvider>
-  )
+  );
 }
