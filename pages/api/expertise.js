@@ -1,15 +1,15 @@
 const expertise = [
   {
     id: 0,
+    title: "Full Stack Development (MERN & MEAN) Stack",
+    desc: "I am a skilled MERN stack developer with extensive experience in building robust web applications using MongoDB, Express.js, React.js, and Node.js. I possess a strong understanding of server-side rendering, API integration, and database management. With my expertise, I can deliver dynamic and efficient web solutions tailored to meet the unique requirements of clients.",
+  },
+  {
+    id: 1,
     title: "Frontend development",
     desc: "Passionate about pixel-perfect designs, innovative solutions, and new technologies. Proficient in JavaScript, TypeScript, React.js, (React-redux redux-tool-kit, mobix,)Material-UI, chakra-UI, react-bootstrap, Tailwind CSS, UI libraries, HTML5, CSS3 Accessibility Standards W3c AAA. I am also a quick learner and always willing to learn new technologies.",
   },
 
-  {
-    id: 1,
-    title: "Full Stack Development",
-    desc: "I am a skilled MERN stack developer with extensive experience in building robust web applications using MongoDB, Express.js, React.js, and Node.js. I possess a strong understanding of server-side rendering, API integration, and database management. With my expertise, I can deliver dynamic and efficient web solutions tailored to meet the unique requirements of clients.",
-  },
   {
     id: 2,
     title: "Scrum and Jira",

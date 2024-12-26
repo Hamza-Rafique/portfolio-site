@@ -29,11 +29,12 @@ const Banner = () => {
                         <Typewriter
                           options={{
                             strings: [
+                              "Full Stack Developer",
                               "Senior Front-end Developer",
+                              "MERN MEAN Stack Developer",
                               "Reactjs",
                               "NextJs Developer",
                               "UI developer",
-                              "MERN Stack Developer",
                               "Storybook Developer",
                             ],
                             autoStart: true,
@@ -50,16 +51,19 @@ const Banner = () => {
                   </span>
                 </div>
               </div>
-              <Link
-                to="intro"
+              <a
                 spy={true}
                 smooth={true}
                 duration={500}
                 offset={-50}
                 className="button"
+                href="https://www.fiverr.com/hamzarafique964?public_mode=true"
+                target="_blank"
+                rel="noreferrer"
               >
-                Explore
-              </Link>
+                Check out my services
+              </a>
+              
             </div>
             <div className="w-48 h-52 relative hidden md:block">
               <img

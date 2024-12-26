@@ -1,6 +1,22 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 const recommendationCard = [
   {
+    id: 10,
+    name: "Naveed SHAHID",
+    image: "https://media.licdn.com/dms/image/v2/D4D35AQH8BSNZpP89XA/profile-framedphoto-shrink_100_100/profile-framedphoto-shrink_100_100/0/1715461817661?e=1735840800&v=beta&t=nf5FfgSHYbpvZx1HExcQpry5qgYIYxsj45p6luRZVYg",
+    designation: "React | Angular | Vue | Ionic | Graph QL | Node Js | Express JS| Redux | NGRX | Devops | SVELTE Js l Vite Js | .Net | CI/CD | Azure | FinTech | Postgres | and Senior Software Engineer at IGA BahrainReact | Angular | Vue | Ionic | Graph QL | Node Js | Express JS| Redux | NGRX | Devops | SVELTE Js l Vite Js | .Net | CI/CD | Azure | FinTech | Postgres | and Senior Software Engineer at IGA Bahrain",
+    view: "I impressed to working with hamza he is very fast to adopting new Tech. His MERN and MEAN skills are strong.",
+    linkednURL: "https://www.linkedin.com/in/naveed-shahid-6356a2150/",
+  },
+  {
+    id: 11,
+    name: "Abdulla Almahmood",
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQELf_r6cIF9Ag/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1714996629061?e=1740614400&v=beta&t=HgQmT_x0HJ2XmJYHaUg5Z86QKisEdmwIOabiHQJbbcE",
+    designation: "Data Scientist | Full Stack Developer | Senior ICT Specialist | AI & ML",
+    view: "I’ve had the pleasure of working with Hamza Rafique, and his skills in React and frontend development truly stand out. He has a knack for building seamless, user-friendly interfaces and always delivers clean, efficient code. Beyond his technical expertise, Hamza’s dedication and teamwork make him a great asset to any project. Highly recommend him!.",
+    linkednURL: "https://www.linkedin.com/in/abdulla-almahmood-76731b179/",
+  },
+  {
     id: 0,
     name: "Sulman Ahmed Awan",
     image: "images/sulman.jpeg",
@@ -84,6 +100,8 @@ const recommendationCard = [
     view: "Such a great personality i have ever met. The time we spent together is the asset of my life.",
     linkednURL: "https://www.linkedin.com/in/muhammad-usman-627888162/",
   },
+  
+ 
 ];
 export default function handler(req, res) {
   res.status(200).json(recommendationCard);

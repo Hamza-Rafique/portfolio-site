@@ -19,6 +19,7 @@ function Posts() {
       ) : (
         <div className="flex flex-wrap justify-around">
           {data.map((post) => (
+            // eslint-disable-next-line react/jsx-key
             <article>
               <div className="max-w-sm rounded overflow-hidden shadow-lg mt-3 bg-white" key={post.id} >
                 <img

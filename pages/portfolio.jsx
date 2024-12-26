@@ -14,9 +14,13 @@ const Portfolio = () => {
   );
   return (
     <BannerLayout>
+        <h4 className="text-xl font-bold text-Snow">In My Portfolio I have not added most of the projects that i have worked with companies and private projects</h4>
+        <h5 className="text-md font-bold text-Snow">to see more please contact me</h5>
+
       <div className="grid justify items-center grid-flow-row md:grid-cols-2 grid-rows-auto gap-4 px-8 my-6">
         {isLoading
           ? [1, 2, 3, 4].map(() => (
+              // eslint-disable-next-line react/jsx-key
               <ImageAndParagraphSkeleton className={"w-full object-cover"} />
             ))
           : data?.map((data, key) => <PortfolioCard key={key} data={data} />)}
