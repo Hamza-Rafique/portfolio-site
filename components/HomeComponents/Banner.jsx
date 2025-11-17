@@ -1,5 +1,6 @@
 import Typewriter from "typewriter-effect";
-import { Link } from "react-scroll";
+import Download from '../Common/Intro/Download';
+import { FaDownload } from 'react-icons/fa';
 import BannerLayout from "../Common/BannerLayout";
 
 const Banner = () => {
@@ -30,12 +31,9 @@ const Banner = () => {
                           options={{
                             strings: [
                               "Full Stack Developer",
-                              "Senior Front-end Developer",
                               "MERN MEAN Stack Developer",
-                              "Reactjs",
-                              "NextJs Developer",
-                              "UI developer",
-                              "Storybook Developer",
+                              "AI/ML Engineer & Full-Stack Developer",
+                              "Building Scalable Web Solutions"
                             ],
                             autoStart: true,
                             loop: true,
@@ -51,19 +49,24 @@ const Banner = () => {
                   </span>
                 </div>
               </div>
-              <a
-                spy={true}
-                smooth={true}
-                duration={500}
-                offset={-50}
-                className="button"
-                href="https://www.fiverr.com/hamzarafique964?public_mode=true"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Check out my services
-              </a>
-              
+
+              <div className="flex justify-start text-center gap-4">
+
+                <Download icon={<FaDownload />} />
+                <a
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  offset={-50}
+                  className="button"
+                  href="https://www.fiverr.com/hamzarafique964?public_mode=true"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Check out my services
+                </a>
+              </div>
+
             </div>
             <div className="w-48 h-52 relative hidden md:block">
               <img

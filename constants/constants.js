@@ -1,11 +1,23 @@
 export const NAME = "Hamza Rafique";
 
 export const DESIGNATION = `MERN-MEAN Stack | Full Stack Developer | Data Science | Machine Learning | Artificial Intelligence`;
+function calculateAge(birthDate) {
+  const today = new Date();
+  const birth = new Date(birthDate);
 
+  let age = today.getFullYear() - birth.getFullYear();
+  const monthDiff = today.getMonth() - birth.getMonth();
+
+  if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birth.getDate())) {
+    age--;
+  }
+
+  return age;
+}
 export const DETAILS = {
-  Residence: "Pakistan",
-  City: "Lahore",
-  Age: "27",
+  Residence: "Bahrain",
+  City: "Manama",
+  Age: calculateAge('1996-07-19'),
 };
 
 export const SKILLS = [
